@@ -47,7 +47,7 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
   You need to make an 'OAuth client ID' so that you can login to your Google Drive<br>
   https://rclone.org/drive/#making-your-own-client-id<br><br>
   
-### Stack (WebDAV) ###<br>
+### Stack (WebDAV) ###
   My target is Stack based on WebDAV<p>
   ```
   rclone config
@@ -62,7 +62,7 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
   bearer_token: <empty><br>
   
  
-### Action ###<br>
+### Action ###
 List directory<br>
   ```
   rclone ls google-drive:/
