@@ -6,8 +6,7 @@ Use RClone
   https://rclone.org/install/
   
   ```
-  mkdir temp
-  cd temp
+  cd /tmp
   curl https://rclone.org/install.sh | sudo bash
   ```
   ```
