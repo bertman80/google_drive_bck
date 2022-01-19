@@ -6,31 +6,31 @@ Use RClone
   https://rclone.org/install/
   
   ```
-  mkdir temp<br>
-  cd temp<br>
-  curl https://rclone.org/install.sh | sudo bash<br><br>
+  mkdir temp
+  cd temp
+  curl https://rclone.org/install.sh | sudo bash
   ```
   ```
-  curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip<br>
-  unzip rclone-current-linux-amd64.zip<br>
-  cd rclone-*-linux-amd64<br><br>
+  curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+  unzip rclone-current-linux-amd64.zip
+  cd rclone-*-linux-amd64
   ```
   ```
-  cp rclone /usr/bin/<br>
-  chown root:root /usr/bin/rclone<br>
-  chmod 755 /usr/bin/rclone<br><br>
+  cp rclone /usr/bin/
+  chown root:root /usr/bin/rclone
+  chmod 755 /usr/bin/rclone
   ```
   ```
-  mkdir -p /usr/local/share/man/man1<br>
-  cp rclone.1 /usr/local/share/man/man1/<br>
-  mandb<br><br>
+  mkdir -p /usr/local/share/man/man1
+  cp rclone.1 /usr/local/share/man/man1/
+  mandb
   ```
   
 ### Google Drive Config ###
 https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
 
   ```
-  rclone config<br><br>
+  rclone config
   ```
   
   name:                 google-drive<br>
@@ -51,7 +51,7 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
 ### Stack (WebDAV) ###<br>
   My target is Stack based on WebDAV<p>
   ```
-  rclone config<br>
+  rclone config
   ```
   
   name:     stack<br>
@@ -66,8 +66,8 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
 ### Action ###<br>
 List directory<br>
   ```
-  rclone ls google-drive:/<br>
-  rclone ls stack:/  <br><br>
+  rclone ls google-drive:/
+  rclone ls stack:/
   ```
   
 Copy all thats on your drive<br>
