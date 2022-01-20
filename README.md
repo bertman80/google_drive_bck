@@ -1,8 +1,8 @@
-# Backup Google Drive using RClone
+# Backup Google Drive and Google Photos using rClone
 
 If you want to make an automatic backup of your Google Drive to another WebDAV or FTP location.
 
-Use RClone
+Use rClone
   https://rclone.org/install/
   
   ```
@@ -43,6 +43,22 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
   Use auto config?:     yes<br>
   Configure this as a Shared Drive (Team Drive)?: no<br><br>
 
+### Google Photos Config ###
+https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
+
+  ```
+  rclone config
+  ```
+  
+  name:                 google-photo<br>
+  storage:              17 (Google Photos)<br>
+  client_id:            <leeg><br>
+  client_secret:        <leeg><br>
+  read_only:            true<br>
+  Use auto config?:     yes<br>
+  Store in full resulution: Yes<br>
+
+
 ### Config Google Credentials ###
   You need to make an 'OAuth client ID' so that you can login to your Google Drive<br>
   https://rclone.org/drive/#making-your-own-client-id<br><br>
@@ -67,9 +83,11 @@ List directory<br>
   ```
   rclone ls google-drive:/
   rclone ls stack:/
+  rclone lsd google-photos:/upload
   ```
   
 Copy all thats on your drive<br>
   ```
   rclone copy google-drive:/ stack:/_bck/googledrive-jan-2022
+  rclone copy google-photos:album stack:/_bck/googlephotos-jan-2022
   ```
