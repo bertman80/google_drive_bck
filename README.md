@@ -86,11 +86,11 @@ List directory<br>
   ```
   rclone ls google-drive:/
   rclone ls stack:/
-  rclone lsd google-photos:/upload
+  rclone lsd google-photos:/album
   ```
   
 Copy all thats on your drive<br>
   ```
   rclone copy google-drive:/ stack:/_bck/googledrive-jan-2022
-  rclone copy google-photos:album stack:/_bck/googlephotos-jan-2022
+  rclone copy google-photos:/album stack:/_bck/googlephotos-jan-2022
   ```
