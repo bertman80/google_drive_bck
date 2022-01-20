@@ -39,9 +39,9 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
   scope:                1 (Full access all files, excluding Application Data Folder.)<br>
   root_folder_id:       <empty><br>
   service_account_file: <empty><br>
-  Edit advanced config: no<br>
-  Use auto config?:     yes<br>
-  Configure this as a Shared Drive (Team Drive)?: no<br><br>
+  edit advanced config: no<br>
+  use auto config?:     yes<br>
+  configure this as a Shared Drive (Team Drive)?: no<br><br>
 
 ### Google Photos Config ###
 https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
@@ -55,9 +55,12 @@ https://rclone.org/docs/ (Google Drive: https://rclone.org/drive/)<p>
   client_id:            <leeg><br>
   client_secret:        <leeg><br>
   read_only:            true<br>
-  Use auto config?:     yes<br>
-  Store in full resulution: Yes<br>
+  use auto config?:     yes<br>
+  edit advanced config: no<br>
+    check photos in the browser !!<br>
+  store in full resulution: Yes<br>
 
+  
 
 ### Config Google Credentials ###
   You need to make an 'OAuth client ID' so that you can login to your Google Drive<br>
