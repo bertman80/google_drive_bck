@@ -1,6 +1,6 @@
 # Backup Google Drive and Google Photos using rClone
 
-If you want to make an automatic backup of your Google Drive to another WebDAV or FTP location.
+If you want to make an automatic backup of your Google Drive and Google Photos (and other storage providers) to another WebDAV or FTP location.
 
 Use rClone
   https://rclone.org/install/
